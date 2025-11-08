@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Mein PDF Download</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background: #f9f9f9;
+      margin: 0;
+    }
+    .box {
+      text-align: center;
+      background: white;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.6rem 1.2rem;
+      background: #0078d7;
+      color: white;
+      text-decoration: none;
+      border-radius: 0.5rem;
+    }
+    a.button:hover { background: #005fa3; }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>Mein PDF</h1>
+    <p>Hier kannst du das Dokument herunterladen:</p>
+    <a class="button" href="mein_dokument.pdf" download>PDF herunterladen</a>
+  </div>
+</body>
+</html>
